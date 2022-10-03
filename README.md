@@ -32,7 +32,7 @@ docker tag public.ecr.aws/f7d4x8o5/mission-client-ahv:latest mission-client-ahv:
 
 ```bash
 cd ahv-vehicle-client
-docker compose up
+docker-compose up
 ```
 
 ## Updating
