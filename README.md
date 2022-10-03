@@ -1,5 +1,5 @@
 ## description
-This git repository contains the launch file necessary to run the lmad mission client on an add robot. Currently it contains the following files.
+This git repository contains the launch file necessary to run the lmad mission client with an ahv robot. Currently it contains the following files.
 
 map_param_files/params.yaml: the ros parameters necessary to configure the client.
 docker-compose.yml: the docker compose file used to run the client image.
