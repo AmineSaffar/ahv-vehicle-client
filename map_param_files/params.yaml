@@ -1,0 +1,21 @@
+client_params:
+  api_token: "LOGISMILE_BACKEND_API_KEY"
+  vehicle_id: "GIM_SPO1"
+  server: "backend.lmad.eu:85"
+  path_to_geojson: "/mount/client_configs/trajectories.json" # this is a fixed param should not be changed by operators.
+  session_time_h: 4
+  reconnect_initial_backoff_s: 5
+  reconnect_backoff_multiplier: 10
+  reconnect_max_backoff_mn: 10
+  report_bumper: false
+  distance_from_stop_tolerance_m: 6
+  can_leave_endpoint_check_frequency_s: 5
+  wait_after_dropoff_s : 10
+  wait_before_failing_command_mn: 5
+  traj_restart_period_s: 30
+  traj_restart_time_mn: 2
+  turning_lights_detection_distance_m: 7
+  turning_lights_deviation_deg: 8.00
+
+ahv_wrapper_params:
+  endpoints_url: "https://ec225b1a-9fb5-4262-8cc5-18ea06e1182c.mock.pstmn.io"
