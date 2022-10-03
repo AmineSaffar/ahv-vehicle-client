@@ -1,21 +1,39 @@
 {
-        "type": "FeatureCollection", 
+        "type": "FeatureCollection",
         "features": [
+        {
+                "type": "Feature",
+                "properties": {
+                        "id": 1,
+                        "bidir": false,
+                        "speedAverage": 1.5,
+                        "time": 60,
+                        "name": "start=H1=100=traj.bag",
+                        "length": 67
+                },
+                "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                               [9.966012, 53.541193],
+                               [9.965499, 53.541067]
+                        ]
+                }
+        },
         {
                 "type": "Feature", 
                 "properties": {
-                        "id": 1,
+                        "id": 2,
                         "bidir": false, 
                         "speedAverage": 1.5,
                         "time": 60,
-                        "name": "p1=p2=100=traj.bag",
+                        "name": "H1=H2=100=traj.bag",
                         "length": 67
                 }, 
                 "geometry": {
                         "type": "LineString", 
                         "coordinates": [
-                               [2.098944, 41.373083],
-                               [2.098083, 41.372750]
+                               [9.965499, 53.541067],
+                               [9.966086, 53.540922]
                         ]
                  }
         },
@@ -26,14 +44,50 @@
                         "bidir": false, 
                         "speedAverage": 1.5,
                         "time": 60,
-                        "name": "p2=p1=100=traj.bag",
+                        "name": "H2=H1=100=traj.bag",
                         "length": 67
                 }, 
                 "geometry": {
                         "type": "LineString", 
                         "coordinates": [
-                               [2.098083, 41.372750],
-                               [2.098944, 41.373083]
+                               [9.966086, 53.540922],
+                               [9.965499, 53.541067]
+                        ]
+                 }
+        },
+        {
+                "type": "Feature", 
+                "properties": {
+                        "id": 2,
+                        "bidir": false, 
+                        "speedAverage": 1.5,
+                        "time": 60,
+                        "name": "H1=end=100=traj.bag",
+                        "length": 67
+                }, 
+                "geometry": {
+                        "type": "LineString", 
+                        "coordinates": [
+                               [9.965499, 53.541067],
+                               [9.966061, 53.541166]
+                        ]
+                 }
+        },
+        {
+                "type": "Feature", 
+                "properties": {
+                        "id": 2,
+                        "bidir": false, 
+                        "speedAverage": 1.5,
+                        "time": 60,
+                        "name": "end=start=100=traj.bag",
+                        "length": 67
+                }, 
+                "geometry": {
+                        "type": "LineString", 
+                        "coordinates": [
+                               [9.966061, 53.541166],
+                               [9.966012, 53.541193]
                         ]
                  }
         }
