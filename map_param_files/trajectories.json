@@ -44,7 +44,7 @@
                         "bidir": false, 
                         "speedAverage": 1.5,
                         "time": 60,
-                        "name": "H2=H1=100=traj.bag",
+                        "name": "H2=H3=100=traj.bag",
                         "length": 67
                 }, 
                 "geometry": {
@@ -62,7 +62,7 @@
                         "bidir": false, 
                         "speedAverage": 1.5,
                         "time": 60,
-                        "name": "H1=end=100=traj.bag",
+                        "name": "H3=end=100=traj.bag",
                         "length": 67
                 }, 
                 "geometry": {
