@@ -8,13 +8,13 @@
                         "bidir": false,
                         "speedAverage": 1.5,
                         "time": 60,
-                        "name": "start=H1=100=traj.bag",
+                        "name": "end=H1=100=traj.bag",
                         "length": 67
                 },
                 "geometry": {
                         "type": "LineString",
                         "coordinates": [
-                               [9.966012, 53.541193],
+                               [9.966061, 53.541166],
                                [9.965499, 53.541067]
                         ]
                 }
@@ -70,24 +70,6 @@
                         "coordinates": [
                                [9.965506, 53.541067],
                                [9.966061, 53.541166]
-                        ]
-                 }
-        },
-        {
-                "type": "Feature", 
-                "properties": {
-                        "id": 2,
-                        "bidir": false, 
-                        "speedAverage": 1.5,
-                        "time": 60,
-                        "name": "end=start=100=traj.bag",
-                        "length": 67
-                }, 
-                "geometry": {
-                        "type": "LineString", 
-                        "coordinates": [
-                               [9.966061, 53.541166],
-                               [9.966012, 53.541193]
                         ]
                  }
         }
